@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Bank Loan Application</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <body>
+      <form class="bankloanform">
+         <h1>Bank Loan Application</h1>
+         <ul>
+            <li><input type="text" name="applicantfirstname" placeholder="First Name"></li>
+            <li><input type="text" name="applicantmiddleinitial" placeholder="Middle Initial"></li>
+            <li><input type="text" name="applicantlastname" placeholder="Last Name"></li>
+            <li><input type="text" name="applicantaddress1" placeholder="Address Line One"></li>
+            <li><input type="text" name="applicantaddress2" placeholder="Address Line Two"></li>
+            <li><input type="text" name="applicantcity" placeholder="City"></li>
+            <li><input type="text" name="applicantstate" placeholder="State"></li>
+            <li><input type="text" name="applicantzip" placeholder="Zip"></li>
+            <li><input type="text" name="applicantoccupation" placeholder="Describe your occupation"></li>
+            <li><input type="text" name="applicantemployer" placeholder="Employer Name"></li>
+            <li><input type="text" name="applicantemployeraddress1" placeholder="Employer Address Line One"></li>
+            <li><input type="text" name="applicantemployeraddress2" placeholder="Employer Address Line Two"></li>
+            <li><input type="text" name="applicantemployercity" placeholder="Emloyer City"></li>
+            <li><input type="text" name="applicantemployerstate" placeholder="Employer State"></li>
+            <li><input type="text" name="applicantemployerzip" placeholder="Employer Zip"></li>
+            <li>
+               <select name="loantype">
+                  <option value="commerical">Select type of loan</option>
+                  <option value="commerical">Commercial</option>
+                  <option value="realestate">Real Estate</option>
+                  <option value="personal">Personal</option>
+                  <option value="mortgage">Mortgage</option>
+               </select>
+            </li>
+            <li>$<input type="number" name="applicantName" min="5000" max="100000" placeholder="Enter desired loan between $5000 and $100000"></li>
+            <li class="radio">
+               <h3>Desired Loan Duration (Years)</h3>
+                  <input type="radio" name="loanlength" value="five">Five
+                  <input type="radio" name="loanlength" value="fifteen">Fifteen
+                  <input type="radio" name="loanlength" value="thirty">Thirty
+            </li>
+            <li>
+               <h3>Special Conditions</h3>
+                  <input type="checkbox" name="specialcondition1" value="downpayment">I have a down payment
+                  <input type="checkbox" name="specialcondition2" value="outofstate">Out-of-state resident<br>
+                  <input type="checkbox" name="specialcondition3" value="married">Married
+                  <input type="checkbox" name="specialcondition4" value="cosigner">Loan will be co-signed
+            </li>
+            <li><textarea placeholder="Enter any additional notes here..."></textarea></li>
+            <li><input type="email" name="applicantemail" placeholder="E-mail"></li>
+            <li><input type="tel" name="applicantphone" placeholder="Phone"></li>
+            <li><input type="url" name="applicantlinkedin" placeholder="Paste personal LinkedIn URL here"></li>
+         </ul>
+      </form>
+         <footer>
+         <small>
+            <div>© Copyright 2016 | Taylor Harry</div>
+         </small>
+      </footer>
+   </body>
+</html>
